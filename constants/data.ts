@@ -10,13 +10,31 @@ export const headerData = {
 
 export const navData = {
   items: [
-    { href: '/', name: 'Home' },
-    { href: '/', name: 'About' },
-    { href: '/', name: 'Gallery' },
-    { href: '/', name: 'Interview' },
-    { href: '/', name: 'Articles' },
-    { href: '/', name: 'Contact' },
-  ],
+    { 
+    href: '/', 
+    name: 'Home' 
+  },
+    { 
+    href: '/', 
+    name: 'About' 
+  },
+    { 
+    href: '/', 
+    name: 'Gallery' 
+  },
+    { 
+    href: '/', 
+    name: 'Interview' 
+  },
+    { 
+    href: '/', 
+    name: 'Articles' 
+  },
+    { 
+    href: '/', 
+    name: 'Contact' 
+  }
+  ]
 };
 
 export const socialData = [
