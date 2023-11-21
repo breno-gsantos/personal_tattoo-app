@@ -6,18 +6,18 @@ module.exports = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
-	],
+  ],
   theme: {
     fontFamily: {
-      owswald: ['var(--font-oswald)', 'sans-serif'],
-      raleway: ['var(--font-raleway', 'sans-serif'],
-      rozhaOne: ['var(--font-rozhaOne)', 'sans-serif']
+      oswald: ['var(--font-oswald)', 'sans-serif'],
+      raleway: ['var(--font-raleway)', 'sans-serif'],
+      rozhaOne: ['var(--font-rozhaOne)', 'sans-serif'],
     },
     container: {
       center: true,
       padding: {
         DEFAULT: '20px',
-        lg: '0'
+        lg: '0',
       },
       screens: {
         sm: '640px',
@@ -30,15 +30,7 @@ module.exports = {
       colors: {
         dark: '#111111',
         grey: {
-          DEFAULT: '#555555'
-        },
-        backgroundImage: {
-          hero: "url('/src/img/hero/bg.jpg')",
-          about: "url('/src/img/about/image.png')",
-          interview: "url('/src/img/interview/bg.png')",
-        },
-        content: {
-          outlineText: 'url("/src/img/hero/outline-text.svg")',
+          DEFAULT: '#555555',
         },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -93,7 +85,15 @@ module.exports = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
+      backgroundImage: {
+        hero: "url('/images/hero/bg.jpg')",
+        about: "url('/images/about/image.png')",
+        interview: "url('images/interview/bg.png')",
+      },
+      content: {
+        outlineText: 'url("/images/hero/outline-text.svg")',
+      },
     },
   },
   plugins: [require("tailwindcss-animate")],
-}
+};
