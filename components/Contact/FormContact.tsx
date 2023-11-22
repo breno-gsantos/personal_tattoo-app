@@ -9,6 +9,8 @@ import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, For
 import { Input } from "@/components/ui/input"
 import { Textarea } from "../ui/textarea"
 
+import {toast, Toaster} from 'react-hot-toast';
+
 const formSchema = z.object({
     name: z.string().min(2,{
         message: 'Name must be at least 2 characters'
@@ -28,7 +30,13 @@ export default function FormContact() {
     })
     
     function onSubmit(values: z.infer<typeof formSchema>){
-        // Aplicar lógica de submit
+        const validationResult = formSchema.safeParse(values);
+
+        if(validationResult.success){
+          return toast.success('Your message has been sent!')
+        } else{
+          toast.error('Please fix the errors in the form and try again')
+        }
     }
 
     return (
@@ -60,6 +68,7 @@ export default function FormContact() {
           )}/>
         <Button variant='oswald' size='lg' type="submit" className="btn-dark self-start">Send it</Button>
       </form>
+      <Toaster />
     </Form>
     )
 }
