@@ -10,7 +10,7 @@ export default function About() {
     const {btnText, subtitle1, subtitle2, title} = aboutData
 
     return (
-        <section className='lg:py-16 xl:pb-[160px]'>
+        <section className='lg:py-16 xl:pb-[160px]' id='about'>
             <div className='container mx-auto'>
                 <div className='flex flex-col lg:flex-row gap-x-[70px] items-center'>
                     

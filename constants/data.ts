@@ -1,7 +1,7 @@
 import { GrFacebookOption } from 'react-icons/gr';
 import { IoMdArrowForward } from 'react-icons/io';
 import { FiSend } from 'react-icons/fi';
-import { FaPlay, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
+import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from 'react-icons/fa';
 import { IoLogoInstagram, IoLogoPinterest, IoLogoTwitter, IoLogoYoutube } from 'react-icons/io';
 
 export const headerData = {
@@ -11,27 +11,27 @@ export const headerData = {
 export const navData = {
   items: [
     { 
-    href: '/', 
+    href: '#home', 
     name: 'Home' 
   },
     { 
-    href: '/', 
+    href: '#about', 
     name: 'About' 
   },
     { 
-    href: '/', 
+    href: '#gallery', 
     name: 'Gallery' 
   },
     { 
-    href: '/', 
+    href: '#interview', 
     name: 'Interview' 
   },
     { 
-    href: '/', 
+    href: '#articles', 
     name: 'Articles' 
   },
     { 
-    href: '/', 
+    href: '#contact', 
     name: 'Contact' 
   }
   ]
@@ -135,8 +135,7 @@ export const galleryData = {
 export const interviewData = {
   title:
     '“Consider what you desire. Your tattoo artist will never tell you what tattoo to have.”',
-  btnText: 'Watch it now',
-  btnIcon: FaPlay
+  btnText: 'Watch it now'
 };
 
 export const testimonialData = [
