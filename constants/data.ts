@@ -71,11 +71,10 @@ export const heroData = {
 export const aboutData = {
   title: 'My Story:',
   subtitle1:
-    'In velit arcu posuere integer. Dolor sit amet, consectetur nun adipiscing elit. Duis porttitor massa tellus hac vel ante sit sed scelerisque praesent duis volutpat laoreet.',
+    "Hi, I'm Void, a passionate tattoo artist who turns stories into art. With years of experience, I transform ideas into meaningful tattoos, capturing unique moments and feelings. At my studio, each brand is more than just paint on skin, it's a visual narrative that celebrates each client's individuality.",
   subtitle2:
-    'Nisl, sit molestie commodo congue. Etiam lectus risus in amet. Commodo molestie fames etiam aenean sed. Pellentesque et venenatis amet, tellus hac vel adipiscing sit. Placerat vitae nisl viverra faucibus tincidunt habitasse amet. Nunc, velit nunc, scelerisque imperdiet nunc.',
+    'My artistic journey aims to create lasting connections through tattooing. Each drawing is an authentic expression, reflecting not only my technical skill, but also the essence of those who trust me to immortalize their stories. Be part of this journey, where tattoos transcend aesthetics and become a unique way of telling and preserving experiences.',
   btnText: 'Know more',
-  btnIcon: IoMdArrowForward,
 };
 
 export const galleryData = {
