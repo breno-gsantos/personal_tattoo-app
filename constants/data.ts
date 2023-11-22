@@ -143,16 +143,30 @@ export const testimonialData = [
   {
     quoteImg: '/images/testimonials/quote.svg',
     message:
-      "The entire team is extremely kind and friendly. They're fantastic. They're great at what they do! And it's unique.They will properly consult with you.",
-    name: 'Jack Geoffrey',
-    occupation: 'Tattoo Artist',
+      "I strongly recommend the tattoo artist! As a professional and dedicated person, he has an impeccable technique that results in unique and high quality tattoos.",
+    name: 'Emily Johnson',
+    occupation: 'Graphic Designer',
   },
   {
     quoteImg: '/images/testimonials/quote.svg',
     message:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam culpa asperiores officia natus dignissimos autem possimus molestias aperiam?',
-    name: 'Douglas Hane',
-    occupation: 'Tattoo Artist',
+      "The entire team is extremely kind and friendly. They're fantastic. They're great at what they do! And it's unique.They will properly consult with you.",
+    name: 'Jack Geoffrey',
+    occupation: 'Musician',
+  },
+  {
+    quoteImg: '/images/testimonials/quote.svg',
+    message:
+      "I've never seen a tattoo artist as talented as this one! Every detail is perfect and the tattoos are truly stunning.",
+    name: 'Matthew Wilson',
+    occupation: 'Fashion Industry Professional',
+  },
+  {
+    quoteImg: '/images/testimonials/quote.svg',
+    message:
+      'I am extremely satisfied with the work of the tattoo artist. His skills are exceptional and he really understands what customers want.',
+    name: 'Charlotte Garcia',
+    occupation: 'Software Developer',
   },
 ];
 
