@@ -1,4 +1,5 @@
 import About from '@/components/About'
+import Contact from '@/components/Contact/Contact'
 import GallerySection from '@/components/GallerySection'
 import Hero from '@/components/Hero'
 import Interview from '@/components/Interview'
@@ -14,6 +15,7 @@ export default function Home() {
       <Skills />
       <Testimonials />
       <Interview />
+      <Contact />
       <div className='h-[400px]'></div>
     </main>
   )
