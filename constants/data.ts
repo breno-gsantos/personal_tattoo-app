@@ -238,10 +238,10 @@ export const footerData = {
   links: {
     title: 'Useful links',
     items: [
-      { href: '/', name: 'About me' },
-      { href: '/', name: 'My gallery' },
-      { href: '/', name: 'My services' },
-      { href: '/', name: 'Contact me' },
+      { href: '#about', name: 'About me' },
+      { href: '#gallery', name: 'My gallery' },
+      { href: '#skills', name: 'My services' },
+      { href: '#contact', name: 'Contact me' },
     ],
   },
   program: {

@@ -16,7 +16,6 @@ export default function Home() {
       <Testimonials />
       <Interview />
       <Contact />
-      <div className='h-[400px]'></div>
     </main>
   )
 }

@@ -55,7 +55,7 @@ export default function Skills() {
     }
 
     return (
-        <motion.section variants={fadeIn('up', 0)} initial='hidden' whileInView='show' viewport={{once: false, amount: 0.1}} ref={ref} className="section font-oswald">
+        <motion.section variants={fadeIn('up', 0)} initial='hidden' whileInView='show' viewport={{once: false, amount: 0.1}} ref={ref} className="section font-oswald" id="skills">
             <div className="container mx-auto">
                 <div className="flex flex-col justify-between items-center xl:flex-row">
                     <div className="w-[150px] lg:w-[275px] flex flex-col items-center gap-y-6">
