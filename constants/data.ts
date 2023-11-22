@@ -80,7 +80,6 @@ export const aboutData = {
 export const galleryData = {
   title: 'Check my gallery:',
   btnText: 'View all',
-  btnIcon: IoMdArrowForward,
   images: [
     {
       src: '/images/gallery/1.png',

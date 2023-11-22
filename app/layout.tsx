@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { Oswald, Raleway, Rozha_One } from 'next/font/google'
 import './globals.css'
+import Header from '@/components/Header'
 
 const oswald = Oswald({ 
   subsets: ['latin'],
@@ -33,7 +34,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${oswald.variable} ${raleway.variable} ${rozhaOne.variable}`}>
-        {children}
+        <Header />
+          {children}
       </body>
     </html>
   )
